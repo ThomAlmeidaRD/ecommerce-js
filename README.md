@@ -1,6 +1,6 @@
 # ecommerce-js 📦 
 > (ainda nao tenho um nome bonito)
-### Ecommerce single page application em react com foco em SEO, Roteamento e JSON
+### Ecommerce single page application em react com foco em SEO, Roteamento e Mobile First
 
 ### Requisitos iniciais
 Este projeto tem como foco, desenvolver um SPA de ecommerce com os seguintes tópicos e requisitos funcionais:
