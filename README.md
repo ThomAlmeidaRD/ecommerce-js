@@ -7,7 +7,6 @@
 ### Requisitos iniciais
 Este projeto tem como foco, desenvolver um SPA de ecommerce com os seguintes tópicos e requisitos funcionais:
  - Homepage com pesquisa para todos os produtos (usando filtragem da dom);
- - Modal de carrinho
  - "Página" dinamica de produto clicado pelo usuario;
  - "Página" de carrinho do produto que for selecionado para compra;
 
