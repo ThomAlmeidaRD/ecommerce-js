@@ -2,6 +2,8 @@
 > (ainda nao tenho um nome bonito)
 ### Ecommerce single page application em react com foco em SEO, Roteamento e Mobile First
 
+![shots](shots.png)
+
 ### Requisitos iniciais
 Este projeto tem como foco, desenvolver um SPA de ecommerce com os seguintes tópicos e requisitos funcionais:
  - Homepage com pesquisa para todos os produtos (usando filtragem da dom);
