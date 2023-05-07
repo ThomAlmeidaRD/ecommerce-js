@@ -11,7 +11,6 @@ function App() {
         <div className="container-content">
           <SearchHeader />
           <Catalog />
-        
         </div>
       </main>
     </>

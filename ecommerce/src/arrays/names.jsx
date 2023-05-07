@@ -1,14 +1,14 @@
 var names = [
-'Magmazone',
-'Aquamantis',
-'Echolytix',
-'Voltihawk',
-'Leafyclaw',
-'Psyrenity',
-'Thundertia',
-'Drakonite',
-'Glacisaur',
-'Mysterion'
+    'Brian',
+    'Kevin',
+    'David',
+    'Tyler',
+    'Jason',
+    'Mason',
+    'Peter',
+    'Colin',
+    'Wyatt',
+    'Aaron'
 ]
 
 export default names
