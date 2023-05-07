@@ -7,6 +7,7 @@ nav {
     width: -webkit-fill-available;
     background: #fff;
     box-shadow: 1px 1px 4px #ddd;
+    z-index: 10;
 }
 
 nav ul {

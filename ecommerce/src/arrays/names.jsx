@@ -12,3 +12,9 @@ var names = [
 ]
 
 export default names
+
+/*
+body {
+    overflow-y: hidden;
+}
+*/
