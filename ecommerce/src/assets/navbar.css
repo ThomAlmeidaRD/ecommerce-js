@@ -1,0 +1,29 @@
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    font-size: 2em;
+    margin: 5px;
+    padding: 5px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    background-color: #ffce00;
+    color: #181818;
+    position: absolute;
+    left: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 6px #d6d6d6;
+}

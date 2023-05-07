@@ -1,0 +1,36 @@
+.container-content {
+    width: 90%;
+}
+
+header {
+    padding-top: 60px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.8em;
+    padding-bottom: 20px;
+    letter-spacing: 0.1px;
+    line-height: 120%;
+}
+
+header p {
+    line-height: 150%;
+    padding-bottom: 15px;
+    font-weight: 600;
+    color: #5c5c5c;
+}
+
+header input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #bbb;
+    font-size: 15px;
+    box-shadow: 2px 2px 11px #ccc;
+}
+
+header input::placeholder {
+    color: #2c2c2c;
+}
