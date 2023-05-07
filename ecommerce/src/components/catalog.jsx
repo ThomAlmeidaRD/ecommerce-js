@@ -65,11 +65,7 @@ function Catalog() {
 
             </div>
 
-            <ItemPage
-                img={nfts[Math.floor(Math.random() * nfts.length)]}
-                name={names[Math.floor(Math.random() * names.length)]}
-                price={'R$ ' + pricing[Math.floor(Math.random() * pricing.length)]}
-            />
+            <ItemPage />
         </>
     )
 }

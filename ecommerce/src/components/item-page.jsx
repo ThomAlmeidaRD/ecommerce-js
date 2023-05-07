@@ -20,7 +20,7 @@ function ItemPage(props) {
                         </p>
                     </article>
                 </div>
-                <button className="add-cart">
+                <button className="add-cart" id="add-cart">
                     <ion-icon name="add"></ion-icon>   Add ao Carrinho
                 </button>
             </div>
