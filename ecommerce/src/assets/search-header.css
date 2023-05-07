@@ -1,5 +1,6 @@
 .container-content {
     width: 90%;
+    margin-top: 20%;
 }
 
 header {
@@ -22,7 +23,7 @@ header p {
 }
 
 header input {
-    width: 70%;
+    width: 80%;
     padding: 10px;
     border-radius: 4px;
     outline: none;
@@ -33,12 +34,6 @@ header input {
 
 header input::placeholder {
     color: #2c2c2c;
-}
-
-.input-field {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .input-field button {
@@ -53,4 +48,11 @@ header input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#src-results {
+    padding-top: 20px;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.2em;
 }
