@@ -22,7 +22,7 @@ header p {
 }
 
 header input {
-    width: 80%;
+    width: 70%;
     padding: 10px;
     border-radius: 4px;
     outline: none;
@@ -33,4 +33,24 @@ header input {
 
 header input::placeholder {
     color: #2c2c2c;
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field button {
+    border: none;
+    margin-left: 10px;
+    font-size: 23px;
+    background-color: #ffce00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
