@@ -3,6 +3,7 @@ import names from '../arrays/names'
 import nfts from '../arrays/nfts'
 import pricing from '../arrays/pricing'
 import ItemPage from "./item-page"
+import Cart from "./cart"
 
 
 
@@ -66,6 +67,7 @@ function Catalog() {
             </div>
 
             <ItemPage />
+            <Cart/>
         </>
     )
 }

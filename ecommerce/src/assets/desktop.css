@@ -1,0 +1,63 @@
+@media only screen and (min-width: 800px) {
+    h1 {
+        font-size: 2.4em !important;
+    }
+    button,
+    ion-icon {
+        cursor: pointer;
+    }
+    .all-products {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .container-content {
+        margin-top: 6%;
+        width: 50%;
+    }
+    .product {
+        cursor: pointer;
+    }
+    #logo {
+        position: inherit;
+    }
+    nav {
+        justify-content: flex-start;
+    }
+    .item-page {
+        align-items: center;
+        background: #0a0a0a1f;
+        position: fixed;
+        padding-top: 20px;
+    }
+    .item-page div {
+        background-color: #fff;
+        padding: 20px 60px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        gap: 50px;
+        overflow-y: auto !important;
+        padding-top: 0;
+    }
+    .item-page img {
+        width: 300px;
+    }
+    .item-page button {
+        position: relative;
+        width: 300px;
+        border-radius: 5px;
+        margin-top: 10px;
+        bottom: 0;
+    }
+    #back {
+        position: relative;
+        top: -30px;
+        left: -7px;
+        font-size: 25px;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 1px 1px 4px #8d8d8d;
+    }
+}
