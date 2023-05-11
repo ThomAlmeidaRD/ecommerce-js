@@ -5,9 +5,9 @@ import pricing from '../arrays/pricing'
 import ItemPage from "./item-page"
 import Cart from "./cart"
 
-
-
 function Catalog() {
+
+
     return (
         <>
             <div className="all-products" id="search-results">
@@ -67,7 +67,9 @@ function Catalog() {
             </div>
 
             <ItemPage />
-            <Cart/>
+            <Cart />
+
+
         </>
     )
 }

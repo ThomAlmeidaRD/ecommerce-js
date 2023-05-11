@@ -1,5 +1,5 @@
 #cart-container {
-    background-color: #ffffff;
+    background-color: #fff;
     position: fixed;
     top: 0px;
     left: 0;
@@ -10,6 +10,8 @@
     height: -webkit-fill-available;
     overflow-y: scroll;
     display: none;
+    justify-content: center;
+    align-items: center;
 }
 
 #closeCart {

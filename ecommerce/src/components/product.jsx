@@ -13,7 +13,9 @@ function Product(props) {
 function openPage(item) {
 
     var itemPage = document.getElementById('item-page')
+    var cartContainer = document.getElementById('cart-container')
     var backBtn = document.getElementById('back')
+    var closeCart = document.getElementById('closeCart')
     var addCartBtn = document.getElementById('add-cart')
 
     var cardCounter = 0
@@ -29,9 +31,15 @@ function openPage(item) {
     itemPage.childNodes[0].childNodes[1].childNodes[0].innerText = thisParent.childNodes[1].innerText
     itemPage.childNodes[0].childNodes[1].childNodes[1].innerText = thisParent.childNodes[2].innerText
     
+    closeCart.addEventListener('click', function () {
+        cartContainer.style.display = 'none'
+     })
+
+
     backBtn.addEventListener('click', function () {
         itemPage.style.display = 'none'
     })
+
 
     addCartBtn.addEventListener('click', function () {
         cardCounter += 1

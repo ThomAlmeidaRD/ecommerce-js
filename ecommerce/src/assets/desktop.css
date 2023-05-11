@@ -60,4 +60,24 @@
         border-radius: 5px;
         box-shadow: 1px 1px 4px #8d8d8d;
     }
+    #cart-container {
+        overflow-y: auto;
+        background-color: #1b1b1b58;
+    }
+    #cart-container>div {
+        width: 40%;
+        padding: 50px;
+        background: #fff;
+        border-radius: 5px;
+    }
+    #finishCart {
+        padding: 16px;
+        font-size: 18px;
+    }
+    #closeCart {
+        font-size: 40px;
+        color: #fff;
+        right: 10%;
+        top: 12%;
+    }
 }
